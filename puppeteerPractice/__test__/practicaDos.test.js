@@ -4,7 +4,7 @@ const puppeteer =  require ('puppeteer')
         
         it('Debe de abrir y cerrar el navegador', async () => {
             const browsere = await puppeteer.launch({
-                headless: false
+                headless: false,
                 slowMo: 0
             })
             const pages = await browsere.newPage()
