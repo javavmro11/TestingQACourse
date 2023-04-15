@@ -1,0 +1,2 @@
+#Este archivo contendra todos los archivos y dependencias que no seran cargadas al repositorio.
+node_modules
